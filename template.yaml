@@ -60,7 +60,7 @@ Resources:
       Description: !Sub
         - Stackery Stack ${StackeryStackTagName} Environment ${StackeryEnvironmentTagName} Function ${ResourceName}
         - ResourceName: handleSubmit
-      CodeUri: src/function6552553A
+      CodeUri: src/submit
       Handler: index.handler
       Runtime: nodejs8.10
       MemorySize: 3008
